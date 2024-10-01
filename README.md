@@ -1,6 +1,6 @@
 # LinkedList-Matrix
 
-Wrote code that allows you to pass in matrices to perform one of four operations
+Wrote c++ code that allows you to pass in matrices to perform one of four operations
 - Matrix Multiplication
 - Matrix Addition
 - Transpose
