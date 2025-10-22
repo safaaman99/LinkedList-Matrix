@@ -1,9 +1,3 @@
-# LinkedList-Matrix
-
-Wrote c++ code that allows you to pass in matrices to perform one of four operations
-- Matrix Multiplication
-- Matrix Addition
-- Transpose
-- Scalar Multiplication
-
-The matrices are limited to square matrices, but when passing in a matrix there is no need to specify 0 values, and the matrix data structure implemented in the code does not store 0 values in memory, saving space.
+# 🧮 Matrix Operations in C++
+A C++ implementation of core linear algebra operations — matrix multiplication, matrix addition, transpose, and scalar multiplication — designed for square matrices.
+The program employs a sparse matrix representation that dynamically stores only non-zero elements, eliminating redundant memory allocation for zero entries. This design minimizes space complexity and improves cache efficiency while maintaining intuitive input handling (no need to explicitly define zeros).
